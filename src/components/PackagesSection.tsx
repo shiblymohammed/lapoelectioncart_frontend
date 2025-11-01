@@ -10,7 +10,6 @@ import { Scribble } from "@/components/Scribble";
 import productService from "@/services/productService";
 import { Package } from "@/types/product";
 import Link from "next/link";
-import Image from "next/image";
 import ReactCurvedText from "react-curved-text";
 
 const PACKAGE_COLORS = ["#46ACFA", "#FF7A51", "#B8FC39"];
@@ -84,10 +83,6 @@ function PackageCard({
                         fill: wordColors[0],
                       },
                     }}
-                    textPathProps={null}
-                    tspanProps={null}
-                    ellipseProps={null}
-                    svgProps={{ style: { overflow: "visible" } }}
                   />
                 </div>
               )}
@@ -121,10 +116,6 @@ function PackageCard({
                         fill: wordColors[1],
                       },
                     }}
-                    textPathProps={null}
-                    tspanProps={null}
-                    ellipseProps={null}
-                    svgProps={{ style: { overflow: "visible" } }}
                   />
                 </div>
               )}

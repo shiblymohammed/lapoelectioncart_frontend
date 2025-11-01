@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import clsx from "clsx";
 import { Heading } from "./Heading";
 import { useAuth } from "@/context/AuthContext";
 import authService from "@/services/authService";
